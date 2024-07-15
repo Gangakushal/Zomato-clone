@@ -70,6 +70,29 @@ h1{
     width: 655px;
     height: 3rem;
     margin-top: 2rem;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search-bar i{
+    font-size: 30px;
+    color: red;
+}
+.search-bar select{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    
+}
+.text{
+    width: 400px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.bx-search{
+    color: black !important;
 }
 
 .card-container{
