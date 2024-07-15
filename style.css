@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 450px;
+    
+    background-image: url("./Assets/Bg.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -150px;
+}
+
+nav{
+    width: 80vw;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app{
+    width: 120px;
+    height: 100%;
+    color: white;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links{
+    color: white;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+}
+
+.description{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.description span{
+    font-weight: 400;
+}
+
+.search-bar{
+    display: flex;
+    height: 5.4rem;
+    background: rgb(232, 231, 231);
+    border-radius: 0.8rem;
+    margin: auto;   
+    width: 655px;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.card-container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 130px;
+}
+.card {
+    height: 250px;
+    width: 400px;
+    border-radius: 13px;
+    transition: all 0.2s linear;
+    border: 0.5px rgb(48, 48, 48) solid;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.photo{
+    height: 180px;
+    background-image: url("./Assets/dish.avif");
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 13px 13px 0px 0px;
+    background-repeat: no-repeat;
+ }
+
+.bg2{
+    background-image: url("./Assets/2.avif");
+}
+
+.bg3{
+    background-image: url("./Assets/3.avif");
+}
+
+.card-des{
+    padding: 5px 15px;
+}
+.card-des h1{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
